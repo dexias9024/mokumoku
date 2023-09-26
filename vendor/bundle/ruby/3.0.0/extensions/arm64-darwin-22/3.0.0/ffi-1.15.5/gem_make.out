@@ -1,5 +1,5 @@
 current directory: /Users/hosinomakitaka/workspace/runteq/mokumoku/vendor/bundle/ruby/3.0.0/gems/ffi-1.15.5/ext/ffi_c
-/Users/hosinomakitaka/.rbenv/versions/3.0.2/bin/ruby -I /Users/hosinomakitaka/.rbenv/versions/3.0.2/lib/ruby/3.0.0 -r ./siteconf20230919-56341-e7i8xx.rb extconf.rb
+/Users/hosinomakitaka/.rbenv/versions/3.0.2/bin/ruby -I /Users/hosinomakitaka/.rbenv/versions/3.0.2/lib/ruby/3.0.0 -r ./siteconf20230926-64924-fu8ia.rb extconf.rb
 checking for ffi_prep_closure_loc() in -lffi... yes
 checking for ffi_prep_cif_var()... yes
 checking for ffi_raw_call()... yes
@@ -41,4 +41,4 @@ ld: warning: dylib (/opt/homebrew/Cellar/libffi/3.4.4/lib/libffi.dylib) was buil
 
 current directory: /Users/hosinomakitaka/workspace/runteq/mokumoku/vendor/bundle/ruby/3.0.0/gems/ffi-1.15.5/ext/ffi_c
 make DESTDIR\= install
-/usr/bin/install -c -m 0755 ffi_c.bundle ./.gem.20230919-56341-cwt9ov
+/usr/bin/install -c -m 0755 ffi_c.bundle ./.gem.20230926-64924-rtrwc0

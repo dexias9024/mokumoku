@@ -6,7 +6,7 @@ ce9e84acc1c42ce26fe7efee85514c39a28ad914 refs/heads/1-0-stable
 af406297a384370901c3731d04cf91b5ff593838 refs/heads/925
 967b77a1f1f382bf717891c8d6a6361765eb6b2e refs/heads/changelog
 c1dac705948952e0724154dfaddbc592630184a0 refs/heads/extract_adapters
-cd89438247ff2005403c3fc382a3c303d58b96ad refs/heads/master
+da6e44ee2ca157d4f5c1a367e150c4d6b27f225b refs/heads/master
 fece8b9f72d7ce6139569bde76427252a1622a9f refs/heads/refactor
 734a73aae4b8a411dbe789adf04b70b266f3014a refs/heads/speed-up-test-suite
 71c335c8325124ffc9993ad304e2fd69435c3ba4 refs/heads/test-unit

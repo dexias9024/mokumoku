@@ -1,5 +1,5 @@
 current directory: /Users/hosinomakitaka/workspace/runteq/mokumoku/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
-/Users/hosinomakitaka/.rbenv/versions/3.0.2/bin/ruby -I /Users/hosinomakitaka/.rbenv/versions/3.0.2/lib/ruby/3.0.0 -r ./siteconf20230919-56341-2to2bl.rb extconf.rb --disable-march-tune-native
+/Users/hosinomakitaka/.rbenv/versions/3.0.2/bin/ruby -I /Users/hosinomakitaka/.rbenv/versions/3.0.2/lib/ruby/3.0.0 -r ./siteconf20230926-64924-lx8bm4.rb extconf.rb --disable-march-tune-native
 creating Makefile
 
 current directory: /Users/hosinomakitaka/workspace/runteq/mokumoku/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
@@ -77,4 +77,4 @@ linking shared-object sassc/libsass.bundle
 
 current directory: /Users/hosinomakitaka/workspace/runteq/mokumoku/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
 make DESTDIR\= install
-/usr/bin/install -c -m 0755 libsass.bundle ./.gem.20230919-56341-tqgbvy/sassc
+/usr/bin/install -c -m 0755 libsass.bundle ./.gem.20230926-64924-4rw6p7/sassc

@@ -1,5 +1,5 @@
 current directory: /Users/hosinomakitaka/workspace/runteq/mokumoku/vendor/bundle/ruby/3.0.0/gems/msgpack-1.7.2/ext/msgpack
-/Users/hosinomakitaka/.rbenv/versions/3.0.2/bin/ruby -I /Users/hosinomakitaka/.rbenv/versions/3.0.2/lib/ruby/3.0.0 -r ./siteconf20230919-56341-quozq7.rb extconf.rb
+/Users/hosinomakitaka/.rbenv/versions/3.0.2/bin/ruby -I /Users/hosinomakitaka/.rbenv/versions/3.0.2/lib/ruby/3.0.0 -r ./siteconf20230926-64924-5do6wo.rb extconf.rb
 checking for rb_enc_interned_str() in ruby.h... yes
 checking for rb_hash_new_capa() in ruby.h... no
 checking for rb_proc_call_with_block() in ruby.h... yes
@@ -35,4 +35,4 @@ linking shared-object msgpack/msgpack.bundle
 
 current directory: /Users/hosinomakitaka/workspace/runteq/mokumoku/vendor/bundle/ruby/3.0.0/gems/msgpack-1.7.2/ext/msgpack
 make DESTDIR\= install
-/usr/bin/install -c -m 0755 msgpack.bundle ./.gem.20230919-56341-ulrhts/msgpack
+/usr/bin/install -c -m 0755 msgpack.bundle ./.gem.20230926-64924-d7j07g/msgpack
