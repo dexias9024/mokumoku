@@ -3,7 +3,6 @@
 class Events::AttendancesController < ApplicationController
   def create
     @event = Event.find(params[:event_id])
-    @attendee = @event.attendees.find_by(user_id: current_user.id)
     event_attendance = current_user.attend(@event)
     (@event.attendees - [current_user] + [@event.user]).uniq.each do |user|
       NotificationFacade.attended_to_event(event_attendance, user)
