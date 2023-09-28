@@ -1,5 +1,5 @@
 class Users::FollowsController < ApplicationController
-  before_action :user_paramus
+  before_action :set_user
 
   def create
     Follow.create(follower_id: current_user.id, followed_id: params[:user_id])
@@ -7,11 +7,15 @@ class Users::FollowsController < ApplicationController
   
   def destroy
     following = Follow.find_by(follower_id: current_user.id, followed_id: params[:user_id])
-    following.destroy
+    if following.nil?
+      return
+    else
+      following.destroy
+    end
   end
 
   private
-  def user_paramus
+  def set_user
     @user = User.find(params[:user_id])
   end
 end
