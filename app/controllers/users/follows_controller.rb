@@ -2,16 +2,11 @@ class Users::FollowsController < ApplicationController
   before_action :set_user
 
   def create
-    Follow.create(follower_id: current_user.id, followed_id: params[:user_id])
+    current_user.follow(@user)
   end
   
   def destroy
-    following = Follow.find_by(follower_id: current_user.id, followed_id: params[:user_id])
-    if following.nil?
-      return
-    else
-      following.destroy
-    end
+    current_user.unfollow(@user) if current_user.following?(@user)
   end
 
   private
