@@ -1,0 +1,31 @@
+<div class="card">
+  <!-- Card header -->
+  <div class="card-header">
+    <h3 class="mb-0">プロフィール</h3>
+    <% if logged_in? %>
+      <%= render partial: 'shared/follow', locals: { user: @user } %>
+    <% end %>
+  </div>
+  <!-- Card body -->
+  <div class="card-body">
+    <div class="d-lg-flex align-items-center justify-content-between">
+      <div class="d-flex align-items-center mb-4 mb-lg-0">
+        <%= image_tag @user.decorate.avatar, class: 'avatar-xl rounded-circle' %>
+        <div class="ms-3">
+          <h4 class="mb-3"><%= @user.name %> avatar</h4>
+        </div>
+      </div>
+    </div>
+    <hr class="my-5">
+    <div>
+      <div class="mb-4">
+      <label class="form-label">自己紹介</label>
+        <p><%= @user.profile %></p>
+      </div>
+      <div class="mb-4">
+        <label class="form-label">趣味</label>
+        <p><%= @user.hobby %></p>
+      </div>
+    </div>
+  </div>
+</div>

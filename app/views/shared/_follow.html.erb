@@ -1,0 +1,7 @@
+<div id="js-user-follow-<%= user.id %>">
+  <% if current_user.following?(user) %>
+    <%= render partial: 'users/follows/unfollow', locals: {user: user} %>
+  <% else %>
+    <%= render partial: 'users/follows/follow', locals: {user: user} %>
+  <% end %>
+</div>
